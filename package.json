@@ -1,0 +1,21 @@
+{
+  "name": "mfeb-hla-bu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MFEB HLA BU - Hla Bu App",
+  "scripts": {
+    "icons": "capacitor-assets generate --android --iconBackgroundColor #151515 --splashBackgroundColor #151515",
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/status-bar": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}
